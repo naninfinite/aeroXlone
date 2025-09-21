@@ -81,3 +81,33 @@ public struct SpectrumPreset: Codable, Equatable, Hashable, Identifiable {
     }
 }
 
+#if DEBUG
+public extension Spectrum {
+    /// A ready-to-use Spectrum for previews/tests (matches current struct).
+    static let sampleClassicAerochrome = Spectrum(
+        id: "classicAerochrome",
+        displayName: "Classic Aerochrome",
+        summary: "Cyan skies, magenta-red foliage — faithful to Kodak Aerochrome vibes.",
+        // For now we point at the future LUT location in bundle resources:
+        lutPath: "Spectra/Resources/Packs/LUTs/AeroXloneClassic_33.cube",
+        lutDigest: nil,                         //"TBD" or nil means skip digest check
+        defaultIntensity: 1.0,                  // will be clamped to 0.40...1.00 by Spectrum.clamp(_:)
+        toneCurve: .init(lift: 1.0, gamma: 1.0, gain: 1.05),
+        presets: [
+            SpectrumPreset(
+                id: "punchy",
+                name: "Punchy",
+                intensity: 1.0,
+                toneCurve: .init(lift: 1.0, gamma: 1.05, gain: 1.10)
+            ),
+            SpectrumPreset(
+                id: "soft",
+                name: "Soft",
+                intensity: 0.90,
+                toneCurve: .init(lift: 1.02, gamma: 0.95, gain: 1.00)
+            )
+        ]
+    )
+}
+#endif
+
