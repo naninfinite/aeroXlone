@@ -1,0 +1,30 @@
+# Xcode
+DerivedData/
+build/
+*.xcworkspace
+*.xccheckout
+*.xcscmblueprint
+
+# User-specific
+*.xcuserstate
+*.xcuserdatad*
+*.moved-aside
+
+# SwiftPM
+.build/
+
+# CocoaPods (not in use yet, but safe)
+Pods/
+Podfile.lock
+
+# Carthage (if ever used)
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+
+# Misc
+.DS_Store
+*.swp

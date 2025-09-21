@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F78DA74F2E8001CB00B0A2AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F78DA74C2E8001CB00B0A2AF /* Assets.xcassets */; };
+		F78DA7502E8001CB00B0A2AF /* AeroXloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78DA74B2E8001CB00B0A2AF /* AeroXloneApp.swift */; };
+		F78DA7512E8001CB00B0A2AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78DA74D2E8001CB00B0A2AF /* ContentView.swift */; };
+		F78DA7592E8004C500B0A2AF /* Spectrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78DA7582E8004C100B0A2AF /* Spectrum.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F78DA72F2E80016600B0A2AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F78DA7192E80016600B0A2AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F78DA7202E80016600B0A2AF;
+			remoteInfo = AeroXlone;
+		};
+		F78DA7392E80016600B0A2AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F78DA7192E80016600B0A2AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F78DA7202E80016600B0A2AF;
+			remoteInfo = AeroXlone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F78DA7212E80016600B0A2AF /* AeroXlone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AeroXlone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F78DA72E2E80016600B0A2AF /* AeroXloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AeroXloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F78DA7382E80016600B0A2AF /* AeroXloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AeroXloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F78DA74B2E8001CB00B0A2AF /* AeroXloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AeroXloneApp.swift; sourceTree = "<group>"; };
+		F78DA74C2E8001CB00B0A2AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F78DA74D2E8001CB00B0A2AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F78DA7582E8004C100B0A2AF /* Spectrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spectrum.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F78DA7312E80016600B0A2AF /* AeroXloneTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AeroXloneTests;
+			sourceTree = "<group>";
+		};
+		F78DA73B2E80016600B0A2AF /* AeroXloneUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AeroXloneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F78DA71E2E80016600B0A2AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78DA72B2E80016600B0A2AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78DA7352E80016600B0A2AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F78DA7182E80016600B0A2AF = {
+			isa = PBXGroup;
+			children = (
+				F78DA74E2E8001CB00B0A2AF /* AeroXlone */,
+				F78DA7312E80016600B0A2AF /* AeroXloneTests */,
+				F78DA73B2E80016600B0A2AF /* AeroXloneUITests */,
+				F78DA7222E80016600B0A2AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F78DA7222E80016600B0A2AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F78DA7212E80016600B0A2AF /* AeroXlone.app */,
+				F78DA72E2E80016600B0A2AF /* AeroXloneTests.xctest */,
+				F78DA7382E80016600B0A2AF /* AeroXloneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F78DA74E2E8001CB00B0A2AF /* AeroXlone */ = {
+			isa = PBXGroup;
+			children = (
+				F78DA7522E80021500B0A2AF /* Spectra */,
+				F78DA74B2E8001CB00B0A2AF /* AeroXloneApp.swift */,
+				F78DA74C2E8001CB00B0A2AF /* Assets.xcassets */,
+				F78DA74D2E8001CB00B0A2AF /* ContentView.swift */,
+			);
+			path = AeroXlone;
+			sourceTree = "<group>";
+		};
+		F78DA7522E80021500B0A2AF /* Spectra */ = {
+			isa = PBXGroup;
+			children = (
+				F78DA7532E80022C00B0A2AF /* Model */,
+			);
+			path = Spectra;
+			sourceTree = "<group>";
+		};
+		F78DA7532E80022C00B0A2AF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F78DA7582E8004C100B0A2AF /* Spectrum.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F78DA7202E80016600B0A2AF /* AeroXlone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F78DA7422E80016600B0A2AF /* Build configuration list for PBXNativeTarget "AeroXlone" */;
+			buildPhases = (
+				F78DA71D2E80016600B0A2AF /* Sources */,
+				F78DA71E2E80016600B0A2AF /* Frameworks */,
+				F78DA71F2E80016600B0A2AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AeroXlone;
+			packageProductDependencies = (
+			);
+			productName = AeroXlone;
+			productReference = F78DA7212E80016600B0A2AF /* AeroXlone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F78DA72D2E80016600B0A2AF /* AeroXloneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F78DA7452E80016600B0A2AF /* Build configuration list for PBXNativeTarget "AeroXloneTests" */;
+			buildPhases = (
+				F78DA72A2E80016600B0A2AF /* Sources */,
+				F78DA72B2E80016600B0A2AF /* Frameworks */,
+				F78DA72C2E80016600B0A2AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F78DA7302E80016600B0A2AF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F78DA7312E80016600B0A2AF /* AeroXloneTests */,
+			);
+			name = AeroXloneTests;
+			packageProductDependencies = (
+			);
+			productName = AeroXloneTests;
+			productReference = F78DA72E2E80016600B0A2AF /* AeroXloneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F78DA7372E80016600B0A2AF /* AeroXloneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F78DA7482E80016600B0A2AF /* Build configuration list for PBXNativeTarget "AeroXloneUITests" */;
+			buildPhases = (
+				F78DA7342E80016600B0A2AF /* Sources */,
+				F78DA7352E80016600B0A2AF /* Frameworks */,
+				F78DA7362E80016600B0A2AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F78DA73A2E80016600B0A2AF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F78DA73B2E80016600B0A2AF /* AeroXloneUITests */,
+			);
+			name = AeroXloneUITests;
+			packageProductDependencies = (
+			);
+			productName = AeroXloneUITests;
+			productReference = F78DA7382E80016600B0A2AF /* AeroXloneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F78DA7192E80016600B0A2AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					F78DA7202E80016600B0A2AF = {
+						CreatedOnToolsVersion = 26.0;
+					};
+					F78DA72D2E80016600B0A2AF = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = F78DA7202E80016600B0A2AF;
+					};
+					F78DA7372E80016600B0A2AF = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = F78DA7202E80016600B0A2AF;
+					};
+				};
+			};
+			buildConfigurationList = F78DA71C2E80016600B0A2AF /* Build configuration list for PBXProject "AeroXlone" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F78DA7182E80016600B0A2AF;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F78DA7222E80016600B0A2AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F78DA7202E80016600B0A2AF /* AeroXlone */,
+				F78DA72D2E80016600B0A2AF /* AeroXloneTests */,
+				F78DA7372E80016600B0A2AF /* AeroXloneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F78DA71F2E80016600B0A2AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F78DA74F2E8001CB00B0A2AF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78DA72C2E80016600B0A2AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78DA7362E80016600B0A2AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F78DA71D2E80016600B0A2AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F78DA7502E8001CB00B0A2AF /* AeroXloneApp.swift in Sources */,
+				F78DA7592E8004C500B0A2AF /* Spectrum.swift in Sources */,
+				F78DA7512E8001CB00B0A2AF /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78DA72A2E80016600B0A2AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78DA7342E80016600B0A2AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F78DA7302E80016600B0A2AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F78DA7202E80016600B0A2AF /* AeroXlone */;
+			targetProxy = F78DA72F2E80016600B0A2AF /* PBXContainerItemProxy */;
+		};
+		F78DA73A2E80016600B0A2AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F78DA7202E80016600B0A2AF /* AeroXlone */;
+			targetProxy = F78DA7392E80016600B0A2AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F78DA7402E80016600B0A2AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = TDQHVGUNWU;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F78DA7412E80016600B0A2AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = TDQHVGUNWU;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F78DA7432E80016600B0A2AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TDQHVGUNWU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.naninfinite.AeroXlone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F78DA7442E80016600B0A2AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TDQHVGUNWU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.naninfinite.AeroXlone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F78DA7462E80016600B0A2AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TDQHVGUNWU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.naninfinite.AeroXloneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AeroXlone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AeroXlone";
+			};
+			name = Debug;
+		};
+		F78DA7472E80016600B0A2AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TDQHVGUNWU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.naninfinite.AeroXloneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AeroXlone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AeroXlone";
+			};
+			name = Release;
+		};
+		F78DA7492E80016600B0A2AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TDQHVGUNWU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.naninfinite.AeroXloneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AeroXlone;
+			};
+			name = Debug;
+		};
+		F78DA74A2E80016600B0A2AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TDQHVGUNWU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.naninfinite.AeroXloneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AeroXlone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F78DA71C2E80016600B0A2AF /* Build configuration list for PBXProject "AeroXlone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F78DA7402E80016600B0A2AF /* Debug */,
+				F78DA7412E80016600B0A2AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F78DA7422E80016600B0A2AF /* Build configuration list for PBXNativeTarget "AeroXlone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F78DA7432E80016600B0A2AF /* Debug */,
+				F78DA7442E80016600B0A2AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F78DA7452E80016600B0A2AF /* Build configuration list for PBXNativeTarget "AeroXloneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F78DA7462E80016600B0A2AF /* Debug */,
+				F78DA7472E80016600B0A2AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F78DA7482E80016600B0A2AF /* Build configuration list for PBXNativeTarget "AeroXloneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F78DA7492E80016600B0A2AF /* Debug */,
+				F78DA74A2E80016600B0A2AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F78DA7192E80016600B0A2AF /* Project object */;
+}
